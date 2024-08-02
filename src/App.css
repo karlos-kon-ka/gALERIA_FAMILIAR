@@ -1,0 +1,190 @@
+body {
+  background-color: rgb(212, 212, 236);
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+section{
+  background-color: #333;
+  color: #ffffff  ;
+  box-shadow: 1px 1px 10px white;
+  text-align: center;
+}
+.contenedor_principal {
+  display: flex;
+  gap: 21px;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.contenedro_dentro {
+  padding: 10px;
+}
+
+.container_data {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 10px;
+}
+
+.card_data {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 10px;
+  flex: 1 1 calc(100% - 40px); 
+  max-width: 300px; 
+  box-sizing: border-box;
+  transition: transform 0.3s, box-shadow 0.3s, scale 0.2s; 
+}
+
+
+.card_data img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.card_data:hover {
+  transform: translateY(-5px);
+  scale: 1.02;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card_data h3 {
+  margin: 0 0 10px;
+  font-size: 1.5em;
+  color: #333;
+}
+
+.card_data p {
+  font-size: 1em;
+  color: #666;
+  margin: 0 0 10px;
+}
+
+.card_data small {
+  font-size: 0.875em;
+  color: #999;
+}
+
+
+.filter-buttons {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  gap: 10px; /* Espaciado entre botones */
+  padding: 20px; /* Padding interno */
+  background-color: #f0f2f5; /* Fondo claro */
+  border-radius: 8px; /* Bordes redondeados */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+  transition: background-color 0.3s ease; /* Transición suave para el fondo */
+}
+
+.filter-buttons:hover {
+  background-color: #e6f7ff; 
+  
+}
+
+.filter-button {
+  border: none;
+  border-radius: 4px; /* Bordes redondeados para botones */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Transiciones suaves */
+  font-size: 16px; /* Tamaño de fuente */
+  padding: 10px 20px; /* Padding interno del botón */
+  transition: 0.3s;
+}
+
+.filter-button:hover {
+  background-color: #1890ff; /* Fondo azul al pasar el ratón */
+  color: #fff; /* Texto blanco al pasar el ratón */
+  scale: 1.05;
+}
+
+
+
+
+
+@media (max-width: 600px) {
+  .card_data {
+    flex: 1 1 calc(50% - 20px); /* Dos columnas en pantallas pequeñas */
+  }
+}
+
+@media (max-width: 600px){
+
+
+  
+
+  
+  
+.filter-buttons {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  gap: 5px; /* Espaciado entre botones */
+  padding: 10px; /* Padding interno */
+  background-color: #f0f2f5; /* Fondo claro */
+  border-radius: 8px; /* Bordes redondeados */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+  transition: background-color 0.3s ease; /* Transición suave para el fondo */
+}
+
+.filter-buttons:hover {
+  background-color: #e6f7ff; 
+  
+}
+
+.filter-button {
+  border: none;
+  border-radius: 4px; /* Bordes redondeados para botones */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Transiciones suaves */
+  font-size: 10px; /* Tamaño de fuente */
+  padding: 10px 20px; /* Padding interno del botón */
+  transition: 0.3s;
+}
+
+.filter-button:hover {
+  background-color: #1890ff; /* Fondo azul al pasar el ratón */
+  color: #fff; /* Texto blanco al pasar el ratón */
+  scale: 1.05;
+}
+
+.ver-mas-container {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.ver-mas-button {
+  border-radius: 4px;
+  padding: 10px 20px;
+  background-color: #1890ff;
+  color: #fff;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.ver-mas-button:hover {
+  background-color: #40a9ff;
+}
+}
+
+
+@media (min-width: 600px) {
+  .card_data {
+    flex: 1 1 calc(50% - 40px); 
+  }
+}
+
+@media (min-width: 900px) {
+  .card_data {
+    flex: 1 1 calc(33.333% - 40px); 
+  }
+}

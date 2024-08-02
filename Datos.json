@@ -1,0 +1,98 @@
+[
+    {
+        "id": "1",
+        "titulo": "Título 1",
+        "img": "./imgs/familia.jfif",
+        "descripcion": "Descripción 1",
+        "año": 2020,
+        "personaje": "Carlos"
+    },
+    {
+        "id": "2",
+        "titulo": "Título 2",
+       "img": "./imgs/familia.jfif",
+        "descripcion": "Descripción 2",
+        "año": 2021,
+        "personaje": "Carlos"
+    },
+    {
+        "id": "3",
+        "titulo": "Título 3",
+       "img": "./imgs/familia.jfif",
+        "descripcion": "Descripción 3",
+        "año": 2022,
+        "personaje": "Carlos"
+    },
+    {
+        "id": "4",
+        "titulo": "Título 4",
+        "img": "./imgs/familia.jfif",
+        "descripcion": "Descripción 4",
+        "año": 2023,
+        "personaje": "Carlos"
+    },
+    {
+        "id": "5",
+        "titulo": "Título 5",
+        "img": "./imgs/familia.jfif",
+        "descripcion": "Descripción 5",
+        "año": 2024,
+        "personaje": "En Familia"
+    },
+    {
+        "id": "6",
+        "titulo": "Título 6",
+       "img": "./imgs/familia.jfif",
+        "descripcion": "Descripción 6",
+        "año": 2025,
+        "personaje": "Sola"
+    },
+    {
+        "id": "7",
+        "titulo": "Título 7",
+        "img": "./imgs/familia.jfif",
+        "descripcion": "Descripción 7",
+        "año": 2026,
+        "personaje": "Sola"
+    },
+    {
+        "id": "8",
+        "titulo": "Título 8",
+        "img": "./imgs/familia.jfif",
+        "descripcion": "Descripción 8",
+        "año": 2027,
+        "personaje": "María"
+    },
+    {
+        "id": "9",
+        "titulo": "Título 9",
+        "img": "./imgs/familia.jfif",
+        "descripcion": "Descripción 9",
+        "año": 2028,
+        "personaje": "Carlos"
+    },
+    {
+        "id": "10",
+        "titulo": "Título 10",
+        "img": "./imgs/familia.jfif",
+        "descripcion": "Descripción 10",
+        "año": 2029,
+        "personaje": "Mauro"
+    },
+    {
+        "id": "11",
+        "titulo": "Título 11",
+        "img": "./imgs/familia.jfif",
+        "descripcion": "Descripción 11",
+        "año": 2030,
+        "personaje": "Carlos"
+    },
+    {
+        "id": "12",
+        "titulo": "Título 12",
+        "img": "./imgs/familia.jfif",
+        "descripcion": "Descripción 12",
+        "año": 2031,
+        "personaje": "Carlos"
+    }
+]
